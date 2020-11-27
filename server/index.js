@@ -5,7 +5,7 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, '../client')));
 var io = require('socket.io')(http);
 
-http.listen(3000, () => {
+http.listen(process.env.PORT || 3000, () => {
   console.log('listening on http://localhost:3000');
 });
 
