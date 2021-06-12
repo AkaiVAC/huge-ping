@@ -16,7 +16,7 @@
   "homepage": "https://bitbucket.org/ArunVAC/ping-pong#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^3.0.3"
+    "socket.io": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "2.0.6"
